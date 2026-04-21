@@ -34,15 +34,15 @@ const resources = {
       },
       hero: {
         kicker: "Explorador histórico escalable de Dwarf Fortress",
-        title: "Análisis asíncrono, pestañas modulares y contexto persistido.",
-        description: "La app parsea el XML fuera del hilo principal, persiste el contexto en el navegador y distribuye la interfaz en componentes para que el mundo no congele la UI."
+        title: "Convierte un XML caótico en una crónica viva de tu mundo.",
+        description: "Sube el archivo XML de tu mundo de Dwarf Fortress y obtén una lectura clara de dragones, figuras históricas, eventos clave, linajes y mapas narrativos, sin pelearte con miles de líneas de etiquetas."
       },
       features: {
         title: "Qué cambia en esta versión",
-        one: "Parsing pesado en Web Worker para evitar bloqueos de la interfaz.",
-        two: "Persistencia del contexto resumido y del estado UI en localStorage.",
-        three: "Componentes separados por dominio para escalar mejor.",
-        four: "Mapa simplificado solo con dragones y figuras de impacto.",
+        one: "Transforma exports XML complejos en una historia visual fácil de explorar.",
+        two: "Analiza mundos grandes sin bloquear la interfaz gracias al procesamiento asíncrono.",
+        three: "Resume dragones, figuras clave, guerras, tesoros y líneas familiares.",
+        four: "Recupera el contexto guardado y continúa justo donde lo dejaste.",
         five: "Traducción heurística del texto del XML según el idioma elegido."
       },
       errors: {
@@ -119,16 +119,16 @@ const resources = {
       },
       hero: {
         kicker: "Scalable Dwarf Fortress history explorer",
-        title: "Async analysis, modular tabs, and persisted context.",
-        description: "The app parses XML off the main thread, persists context in browser storage, and distributes the UI into components so the world stops freezing the interface."
+        title: "Turn chaotic XML into a living chronicle of your world.",
+        description: "Upload your Dwarf Fortress world XML and get a readable view of dragons, historical figures, key events, lineages, and map-driven storytelling without wrestling with thousands of raw tags."
       },
       features: {
         title: "What changes in this version",
-        one: "Heavy parsing runs in a Web Worker to avoid UI blocking.",
-        two: "A summarized context snapshot and UI state are persisted in localStorage.",
-        three: "Components are split by domain for better scalability.",
-        four: "The map is simplified to dragons and impact figures only.",
-        five: "XML text is translated heuristically according to the selected language."
+        one: "Transforms complex XML exports into a visual story you can actually explore.",
+        two: "Handles large worlds asynchronously so the interface stays responsive.",
+        three: "Summarizes dragons, major figures, wars, treasures, and family lines.",
+        four: "Restores saved context so you can continue where you left off.",
+        five: "Presents the world in a bilingual interface ready to grow."
       },
       errors: {
         title: "Error processing XML",
